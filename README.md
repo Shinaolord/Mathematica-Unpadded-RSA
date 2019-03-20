@@ -4,7 +4,7 @@
 RSA
 --Unpadded
 
-Creates a 200 digit RSA PUBLIC key and PRIVATE key using two 100 digit prime numbers, with a minimum difference between the two primes (p,q).
+Creates a 200 decimal digit RSA PUBLIC key and PRIVATE key using two 100 decimal digit prime numbers, with a minimum difference between the two primes (p,q).
 
 Outputs a list {PRIME P, PRIME Q, P * Q, PUBLIC KEY, PRIVATE KEY, PUBLIC * PRIVATE % phi(n), P-Q}
 
